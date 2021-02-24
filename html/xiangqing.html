@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情</title>
+    <link rel="shortcut icon" href="../img/title.jpg"/>
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/cookie.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header" id="go_top">
+        <div class="header_top_wrap">
+            <div class="header_top clear_fix">
+                <ul class="header_top_left">
+                    <li>欢迎来到快乐购！</li>
+                    <li> <a href="../html/login.html">[登录]</a> </li>
+                    <li> <a href="../html/register.html">[免费注册]</a> </li>
+                </ul>
+                <ul class="header_top_right">
+                    <li><a href="#">合作招商</a></li>
+                    <li><a href="#">订单查询</a></li>
+                    <li><a href="#">我的快乐购</a></li>
+                    <li><span class="iconfont icon-jisuanqi"></span><i>400-705-1111</i></li>
+                    <li>
+                        <a href="#">下载快乐购app</a>
+                        <img src="../img/ewm.jpg" alt="">
+                    </li>
+                    <li>
+                        <a href="#">客服中心</a><span class="iconfont icon-jiantou9"></span>
+                        <div>
+                            <a href="#">帮助中心</a>
+                            <a href="#">会员反馈</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_middle clear_fix">
+            <a href="../html/shouye.html"><img src="../img/logo.png" alt=""></a>
+            <form action="">
+                <span class="iconfont icon-fangdajing"></span>
+                <input type="text" placeholder="面膜">
+                <input type="submit" value="搜索">
+                <div class="ss">
+                    <a href="#">围巾</a>
+                    <a href="#">帽子</a>
+                    <a href="#">手套</a>
+                    <a href="#">七匹狼</a>
+                    <a href="#">领带</a>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="header_footer">
+            <ul class=" clear_fix">
+                <li>
+                    <a href="#"><span class="iconfont icon-fenlei"></span>所有分类</a>
+                    <ul class="header_footer_list">
+                        <li><a href="#"><i class="iconfont icon-drink"></i> 食品健康 ></a></li>
+                        <li><a href="#"><i class="iconfont icon-kouhong
+                            "></i> 个护美妆 ></a></li>
+                        <li><a href="#"><i class="iconfont icon-icon-test
+                            "></i> 餐厨日用 ></a></li>
+                        <li><a href="#"><i class="iconfont icon-yifu
+                            "></i> 服装配饰 ></a></li>
+                        <li><a href="#"><i class="iconfont icon-shafaA"></i> 布艺家纺 ></a></li>
+                        <li><a href="#"><i class="iconfont icon-xiangji"></i> 家电数码 ></a></li>
+                        <li><a href="#"><i class="iconfont icon-pinpai
+                            "></i> 品牌馆 ></a></li>
+                    </ul>
+                </li>
+                <li><a href="#">TV精选<span class="iconfont icon-duihuakuang
+                    "></span></a></li>
+                <li><a href="#">商品推荐</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="../js/header.js"></script>
+    <hr style="margin: 0;padding: 0; background-color: red;">
+
+    <div class="goods_list"></div>
+    <!-- 搜索-js -->
+    <script src="../js/sousuo.js"></script>
+    <style>
+        .goods_list{
+            width: 1100px;
+            margin: 0 auto;
+        }
+        .goods_box{
+            width: 250px;
+            float: left;
+            margin: 20px 10px;
+            background-color: rgb(196, 196, 196);
+        }
+        .goods_box h3{
+            margin-left: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        .goods_box h4{
+            margin-left: 10px;
+            font-size: 14px;
+            line-height: 20px;
+            height: 20px;
+            color: #333;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+        }
+        .goods_box h5{
+            color: #DF0010;
+            font-size: 12px;
+            margin-left: 10px;
+            line-height: 50px;
+        }
+        .goods_box h5 span{
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .goods_box img{
+            width: 100%;
+        }
+        a:nth-of-type(4n) .goods_box{
+            margin-right: 0px;
+        }
+    </style>
+
+
+    <!-- 商品详情 -->
+    <div class="goods_details">
+
+    </div>
+    <div class="jrgwc_box">
+
+    </div>
+    <link rel="stylesheet" href="../css/xiangqing.css">
+
+    <!-- 底部 -->
+    <div class="footer" style="clear: both;">
+        <div class="footer_li">
+            <i class="iconfont icon-gupiao"></i>
+            <h2>成功上市</h2>
+            <p>股票代码300413</p>
+        </div>
+        <div class="footer_li">
+            <i class="iconfont icon-zhengpinbaozheng"></i>
+            <h2>快乐购严选</h2>
+            <p>正品行货 品质保证</p>
+        </div>
+        <div class="footer_li">
+            <i class="iconfont icon-15"></i>
+            <h2>15天无理由退款</h2>
+            <p>为您提供售后无忧保障</p>
+        </div>
+        <div class="footer_li">
+            <i class="iconfont icon-baoyou"></i>
+            <h2>满129包邮</h2>
+            <p>在线支付 购物包邮</p>
+        </div>
+        <div class="footer_li">
+            <i class="iconfont icon-kefu1"></i>
+            <h2>24小时微笑服务</h2>
+            <p>365*24小时人工服务</p>
+        </div>
+        <hr>
+        <div class="footer_left clear_fix">
+            <dl class="footer_left_dl">
+                <dt>使用帮助</dt>
+                <dd>
+                    <a href="https://www.happigo.com/news-58.html" title="税费收取规则" target="_blank"> 税费收取规则 </a>
+                </dd>
+                <dd>
+                    <a href="https://www.happigo.com/news-43.html" title="新手指南" target="_blank"> 新手指南 </a>
+                </dd>
+                <dd>
+                    <a href="https://www.happigo.com/news-6.html" title="常见问题" target="_blank"> 常见问题 </a>
+                </dd>
+                <dd>
+                    <a href="https://www.happigo.com/news-7.html" title="用户协议" target="_blank"> 用户协议 </a>
+                </dd>
+            </dl>
+            <dl class="footer_left_dl">
+                <dt>会员服务</dt>
+                <dd>
+                    <a href="https://www.happigo.com/news-49.html" title="快乐币政策" target="_blank"> 快乐币政策 </a>
+                </dd>
+                <dd>
+                    <a href="https://www.happigo.com/news-12.html" title="会员权益" target="_blank"> 会员权益 </a>
+                </dd>
+                <dd>
+                    <a href="https://www.happigo.com/news-11.html" title="会员等级" target="_blank"> 会员等级 </a>
+                </dd>
+            </dl>
+            <dl class="footer_left_dl">
+                <dt>支付方式</dt>
+                <dd><a href="https://www.happigo.com/news-44.html" title="快乐币支付" target="_blank"> 快乐币支付 </a></dd>
+                <dd><a href="https://www.happigo.com/news-28.html" title="货到付款" target="_blank"> 货到付款 </a></dd>
+                <dd><a href="https://www.happigo.com/news-17.html" title="在线支付" target="_blank"> 在线支付 </a></dd>
+                <dd><a href="https://www.happigo.com/news-45.html" title="优惠券支付" target="_blank"> 优惠券支付 </a></dd>
+            </dl>
+            <dl class="footer_left_dl">
+                <dt>配送方式</dt>
+                <dd><a href="https://www.happigo.com/news-32.html" title="费用说明" target="_blank"> 费用说明 </a></dd>
+                <dd><a href="https://www.happigo.com/news-31.html" title="配送说明" target="_blank"> 配送说明 </a></dd>
+                <dd><a href="https://www.happigo.com/news-26.html" title="包邮政策" target="_blank"> 包邮政策 </a></dd>
+            </dl>
+            <dl class="footer_left_dl">
+                <dt>售后服务</dt>
+                <dd><a href="https://www.happigo.com/news-59.html" title="电子发票" target="_blank"> 电子发票 </a></dd>
+                <dd><a href="https://www.happigo.com/news-20.html" title="退货办理" target="_blank"> 退货办理 </a></dd>
+                <dd><a href="https://www.happigo.com/news-19.html" title="退货政策" target="_blank"> 退货政策 </a></dd>
+                <dd><a href="https://www.happigo.com/news-18.html" title="售后咨询" target="_blank"> 售后咨询 </a></dd>
+            </dl>
+        </div>
+        <div class="footer_right">
+            <ul>
+				<li>
+					<h2>手机快乐购</h2> 
+                    <img src="https://ecimg.happigo.com/resource/web/new_web/images/footer_ewm_01.png">
+					<p>下载移动客户端</p>
+				</li>
+				<li>
+					<h2>快乐购微信</h2> 
+                    <img src="https://ecimg.happigo.com/resource/web/new_web/images/footer_ewm_02.png">
+					<p>快乐购微信</p>
+				</li>
+			</ul>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="footer_bottom_w600">
+            <ul>
+                <li>
+                    <a href="http://www.happigo.com/shop/index.php?act=article&amp;op=show&amp;article_id=22" target="_blank">关于快乐购</a>
+                </li>
+                <li>
+                    <a href="http://www.happigo.com/shop/index.php?act=stock" target="_blank">投资者关系</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://hbp1.happigo.com/csm/index.php?s=/Index">自营品牌招商</a>
+                </li>
+                <li>
+                    <a href="http://www.happigo.com/shop/index.php?act=article&amp;op=show&amp;article_id=23" target="_blank">联系我们</a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://ecimg.happigo.com/data/upload/shop/common/happigo_yyzz_pc.jpg">营业证照</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_bottom_w1100">
+            <p>
+                <span class="font_arial">Copyright© 2006-2018 happigo. All Rights Reserved </span>
+            </p>
+            <p class="clear_fix">	                
+                免费服务热线: 400-705-1111 | 固话也可拨打: 400-705-8800
+                <span class="font_arial">E-Mail: service@happigo.com</span><br>
+                <a href="http://beian.miit.gov.cn/" style="color: #C8C8C8" target="_blank">湘ICP备19013404号-2</a>
+                <img src="//ecimg.happigo.com/resource/web/images/jh.png">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010502000556" style="color: #C8C8C8" target="_blank">湘公网安备 43010502000556号</a>
+                <a href="http://ecimg.happigo.com/data/upload/shop/common/spaq.jpg" style="color: #C8C8C8" target="_blank">食品经营许可证 JY14301000273760</a>
+            </p>
+            <p class="footer_p clear_fix">
+                <a id="_pingansec_bottomimagesmall_brand" href="http://si.trustutn.org/info?sn=274180122031647490426&amp;certType=1" target="_blank">
+                    <img src="//v.trustutn.org/images/cert/brand_bottom_small.jpg">
+                </a>
+                <a href="http://shuidi.cn/company_extreme_18830624680420226817875805655177.html" target="_blank">
+                    <img src="//ecimg.happigo.com/resource/web/images/footer_shuidi.png">
+                </a>
+            </p>
+        </div>
+    </div>
+    <link rel="stylesheet" href="../css/footer.css">
+
+
+    <!-- 侧边栏 -->
+    <div class="sidebar">
+        <div class="sidebar_top">
+            <div class="sidebar_top_one"><i class="iconfont icon-wode"></i>账号</div>
+            <hr>
+            <div class="sidebar_top_two">
+                <a href="../html/cart.html"><i class="iconfont icon-ziyuan"></i>购物车</a>
+            </div>
+        </div>
+        <div class="sidebar_bottom">
+            <a href="#" class="iconfont icon-erweima"><i class="iconfont icon-yousanjiaoxing
+                "></i><img src="../img/ewm2.png" alt=""></a>
+            <a href="#" class="iconfont icon-kefu">
+                <i class="iconfont icon-yousanjiaoxing"></i>
+                <div class="kefu">
+                    <h4>商品/订单</h4>
+                    <h5>商品咨询</h5>
+                    <h5>订单支付</h5>
+                    <h5>配送查询</h5>
+                    <h5>订单查询</h5>
+                    <h4>优惠/政策</h4>
+                    <h5>个帐查询</h5>
+                    <h5>活动咨询</h5>
+                    <h4>账户服务</h4>
+                    <h5>账号咨询</h5>
+                    <h5>密码找回</h5>
+                    <h4>售后服务</h4>
+                    <h5>退款查询</h5>
+                    <h5>取消/退换货</h5>
+                    <h5>售后处理</h5>
+                    <h5>投诉建议</h5>
+                </div>
+            </a>
+            <a href="#go_top" class="iconfont icon-top01"></a>
+        </div>
+    </div>
+    <script src="../js/sidebar.js"></script>
+
+    <script src="../js/xiangqing.js"></script>
+</body>
+</html>

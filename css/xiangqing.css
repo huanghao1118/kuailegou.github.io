@@ -1,0 +1,224 @@
+.goods_details {
+  width: 1100px;
+  margin: 0 auto;
+  clear: both;
+}
+.goods_details .location {
+  margin: 20px 10px;
+}
+.goods_details .location a {
+  display: inline;
+  color: #000;
+  font-size: 14px;
+  margin: 0 10px;
+}
+.goods_details .location span {
+  font-size: 14px;
+  color: #646464;
+  margin-left: 10px;
+}
+.goods_details .goods_details_content .goods_details_content_left {
+  float: left;
+  position: relative;
+  margin: 30px 0;
+}
+.goods_details .goods_details_content .goods_details_content_left .box {
+  cursor: crosshair;
+  position: relative;
+}
+.goods_details .goods_details_content .goods_details_content_left .box img {
+  width: 400px;
+  height: 400px;
+}
+.goods_details .goods_details_content .goods_details_content_left .box .zhedang {
+  display: none;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(207, 179, 179, 0.5);
+}
+.goods_details .goods_details_content .goods_details_content_left .div_imgs {
+  margin: 20px 0;
+}
+.goods_details .goods_details_content .goods_details_content_left .div_imgs img {
+  width: 75px;
+  float: left;
+  margin-right: 5px;
+}
+.goods_details .goods_details_content .goods_details_content_left .div_imgs img:last-of-type {
+  margin-right: 0px;
+}
+.goods_details .goods_details_content .goods_details_content_left .div_imgs .imgborder {
+  border: 2px solid red;
+}
+.goods_details .goods_details_content .goods_details_content_left .box_right {
+  border: 1px solid red;
+  display: none;
+  position: absolute;
+  z-index: 10;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 450px;
+  overflow: hidden;
+}
+.goods_details .goods_details_content .goods_details_content_left .box_right img {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+}
+.goods_details .goods_details_content .goods_details_content_right {
+  margin: 30px;
+  float: right;
+  width: 600px;
+}
+.goods_details .goods_details_content .goods_details_content_right h2 {
+  font-size: 18px;
+  color: #303030;
+  margin: 20px 0;
+}
+.goods_details .goods_details_content .goods_details_content_right b {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #666;
+  display: inline-block;
+  width: 100px;
+  line-height: 30px;
+}
+.goods_details .goods_details_content .goods_details_content_right .jiage {
+  padding: 10px 0;
+  color: #c41f3a;
+  font-size: 18px;
+  background-color: #fefafb;
+  border-bottom: 1px dashed #f0dde1;
+}
+.goods_details .goods_details_content .goods_details_content_right .jiage em {
+  font-size: 40px;
+  color: #df0010;
+}
+.goods_details .goods_details_content .goods_details_content_right .yunfei {
+  padding: 15px 0;
+  border-bottom: 1px dotted #f0dde1;
+}
+.goods_details .goods_details_content .goods_details_content_right .yunfei span {
+  font-size: 14px;
+  color: #333;
+}
+.goods_details .goods_details_content .goods_details_content_right .yanse {
+  margin: 15px 0;
+}
+.goods_details .goods_details_content .goods_details_content_right .chima {
+  margin: 15px 0;
+}
+.goods_details .goods_details_content .goods_details_content_right .jrgwc {
+  padding: 8px 15px;
+  border-radius: 5px;
+  outline: none;
+}
+.goods_details .goods_details_content .goods_details_content_right .xuanzhong {
+  display: inline-block;
+  border: 2px solid #F11D20;
+  position: relative;
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  text-align: center;
+}
+.goods_details .goods_details_content .goods_details_content_right .xuanzhong span {
+  position: absolute;
+  font-size: 18px;
+  right: -8px;
+  bottom: -8px;
+}
+.goods_details .goods_details_content .goods_details_content_right .two_ewm {
+  margin-top: 30px;
+}
+.goods_details .goods_details_content .goods_details_content_right .two_ewm .two_ewm_1, .goods_details .goods_details_content .goods_details_content_right .two_ewm .two_ewm_2 {
+  width: 240px;
+  height: 140px;
+  float: left;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.goods_details .goods_details_content .goods_details_content_right .two_ewm .two_ewm_1 img, .goods_details .goods_details_content .goods_details_content_right .two_ewm .two_ewm_2 img {
+  margin: 15px;
+  width: 110px;
+  height: 110px;
+  float: left;
+  border-radius: 5px;
+}
+.goods_details .goods_details_content .goods_details_content_right .two_ewm .two_ewm_1 .txt, .goods_details .goods_details_content .goods_details_content_right .two_ewm .two_ewm_2 .txt {
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.goods_details .goods_details_content .goods_details_content_right .two_ewm .two_ewm_1 {
+  background-color: #D91722;
+}
+.goods_details .goods_details_content .goods_details_content_right .two_ewm .two_ewm_1 .txt {
+  color: #fff;
+}
+.goods_details .goods_details_content .goods_details_content_right .two_ewm .two_ewm_2 {
+  background-color: #EBEBEB;
+}
+.goods_details .goods_details_content .xq {
+  clear: both;
+}
+.goods_details .goods_details_content .xq .recommend {
+  width: 220px;
+  float: left;
+}
+.goods_details .goods_details_content .xq .recommend h2 {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+.goods_details .goods_details_content .xq .recommend a {
+  background-color: #F6F6F6;
+  padding-top: 10px;
+}
+.goods_details .goods_details_content .xq .recommend a img {
+  width: 200px;
+  margin: 10px;
+}
+.goods_details .goods_details_content .xq .recommend a h3 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fda2b1;
+  margin: 10px;
+}
+.goods_details .goods_details_content .xq .recommend a h4 {
+  font-size: 12px;
+  line-height: 20px;
+  color: red;
+  margin: 10px;
+  margin-bottom: 25px;
+}
+.goods_details .goods_details_content .xq .spxxxx {
+  float: right;
+}
+.goods_details .goods_details_content .xq .spxxxx h2 {
+  width: 800px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 10px;
+  color: pink;
+}
+.goods_details .goods_details_content .xq .spxxxx .spxxxx-box{
+  width: 800px;
+  overflow-x: hidden;
+}
+.goods_details .goods_details_content .xq img {
+  width: 800px;
+}
+
+.jrgwc_box .jrgwc_img {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=xiangqing.css.map */

@@ -1,0 +1,23 @@
+/* 底部 */
+.footer{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.footer .footer_head{
+    font-size: 12px;
+    padding-top: 10px;
+    font-family: "宋体";
+    color: #7e7e7e;
+    line-height: 25px;
+}
+.footer_p{
+    padding: 30px 0 40px 0;
+}
+.footer_p img{
+    float: left;
+}
+.footer_p a:first-of-type img{
+    margin-left: 200px;
+}

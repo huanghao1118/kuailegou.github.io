@@ -1,0 +1,17 @@
+/* 头部 */
+.header{
+    width: 1000px;
+    margin: 0 auto;
+    height: 72px;
+    margin: 30px auto 20px;
+}
+.header_left{
+    float: left;
+}
+.header_left img{
+    height: 72px;
+}
+.header_right{
+    margin-top: 20px;
+    float: right;
+}

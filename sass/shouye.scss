@@ -1,0 +1,320 @@
+body{
+    overflow-x: hidden;
+}
+.main{
+    background-color: #F3F3F3;
+    .goods_box_a{
+        .goods_box{
+            position: relative;
+            margin: 20px 0;
+            width: 250px;
+            margin-right: 30px;
+            float: left;
+            background-color: rgb(252, 252, 252);
+            &:hover::after{
+                position: absolute;
+                content: "";
+                top: 0px;
+                bottom: 0px;
+                left: 0;
+                right: 0px;
+                border: 3px solid #df0010;
+            }
+            &:hover h3,&:hover h4{
+                text-decoration: underline;
+            }
+            img{
+                width: 100%;
+            }
+            h3{
+                margin-left: 10px;
+                font-size: 14px;
+                color: #666;
+            }
+            h4{
+                margin-left: 10px;
+                font-size: 14px;
+                line-height: 20px;
+                height: 20px;
+                color: #333;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+            }
+            h5{
+                color: #DF0010;
+                font-size: 12px;
+                margin-left: 10px;
+                line-height: 50px;
+                span{
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+            }
+        }
+        &:nth-of-type(4n) .goods_box{
+            margin-right: 0px;
+        }
+    }
+    .zhibo{
+        width: 1100px;
+        margin: 0 auto;
+        padding-top: 30px;
+        h2{
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 22px;
+            border-left: 5px solid black;
+            height: 22px;
+            line-height: 22px;
+            padding-left: 10px;
+            span{
+                font-size: 14px;
+                color: #666666;
+                font-weight: normal;
+                margin-left: 10px;
+            }
+        }
+        .zhibo_left,.zhibo_right{
+            float: left;
+            width: 225px;
+            height: 410px;
+            background-color: white;
+            padding-top: 5px;
+            >i{
+                color:#DF0010;
+                font-size: 12px;
+                margin: 0 5px 0 12px;
+            }
+            >span{
+                font-size: 15px;
+                color:#DF0010;
+                font-weight: bold;
+            }
+            .a_buy_phone{
+                width: 198px;
+                padding: 6px 0;
+                font-size: 14px;
+                white-space: nowrap;
+                height: 20px;
+                border: 1px solid #E50D16;
+                color: #E50D16;
+                text-align: center;
+                margin-left: 10px;
+                position: relative;
+                .a_buy_phone_div{
+                    position: absolute;
+                    z-index: 1;
+                    display: none;
+                    width: 100%;
+                    padding-top: 10px;
+                    margin-top: 8px;
+                    margin-left: -1px;
+                    background-color: white;
+                    border: 1px solid pink;
+                    border-top: none;
+                    img{
+                        margin-left: 8px;
+                    }
+                    p{
+                        text-align: center;
+                        padding: 10px 0;
+                    }
+                }
+            }
+            .zhibo_right_goods{
+                width: 100%;
+                height: 340px;
+                overflow-x: hidden;
+                position: relative;
+                .zhibo_left_goods1,.zhibo_left_goods2{
+                    width: 205px;
+                    position: absolute;
+                }
+                .zhibo_left_goods1{
+                    // display: none;
+                    left: 220px;
+                }
+                .zhibo_left_goods2{
+                    left: 0;
+                    // display: none;
+                }
+                .icon-zuojiantou{
+                    position: absolute;
+                    top: 25%;
+                    left: 0;
+                    background-color: rgba(179,179,179,0.7);
+                    color: white;
+                    width: 25px;
+                    height: 50px;
+                    text-align: left;
+                    line-height: 50px;
+                    border-radius:0 25px 25px 0;
+                    font-size: 20px;
+                    display: none;
+                }
+                &:hover .icon-zuojiantou{
+                    display: block;
+                }
+                .icon-youjiantou1{
+                    display: none;
+                    position: absolute;
+                    top: 25%;
+                    right: 0;
+                    background-color: rgba(179,179,179,0.7);
+                    color: white;
+                    width: 25px;
+                    height: 50px;
+                    text-align: right;
+                    line-height: 50px;
+                    border-radius:25px 0 0 25px;
+                    font-size: 20px;
+                }
+                &:hover .icon-youjiantou1{
+                    display: block;
+                }
+            }
+            .zhibo_left_goods,.zhibo_left_goods1,.zhibo_left_goods2{
+                padding-top: 10px;
+                margin: 0 10px;
+                a:first-of-type{
+                    position: relative;
+                    img{
+                        margin: 0 auto;
+                        width: 200px;
+                        height: 200px;
+                    }
+                    .zhibo_time{
+                        position: absolute;
+                        background: rgba(0,0,0,0.5);
+                        top: 0;
+                        left: 2px;
+                        color: #fff;
+                        font-size: 13px;
+                        padding: 2px 5px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: black;
+                        width: 200px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        line-height: 20px;
+                    }
+                    .zb_p1{
+                        color: #666666;
+                    }
+                }
+                .price{
+                    margin-top: 10px;
+                    .price1{
+                        color: #DF0010;
+                        font-size: 22px;
+                        font-weight: bold;
+                        span{
+                            font-size: 15px;
+                        }
+                    }
+                    .price2{
+                        color: #999999;
+                        font-size: 12px;
+                        text-decoration: line-through;
+                    }
+                }
+                .a_buy_now{
+                    width: 200px;
+                    text-align: center;
+                    background-color: #E50D16;
+                    color: white;
+                    padding: 6px 0;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
+            }
+            
+        }
+        .zhibo_middle{
+            float: left;
+        }
+    }
+
+    .goods_list{
+        width: 1100px;
+        margin: 0 auto;
+        >h2{
+            font-size: 20px;
+            height: 20px;
+            line-height: 20px;
+            padding-left: 10px;
+            font-weight: bold;
+            margin: 30px 0 0;
+            border-left: 5px solid black;
+        }
+        >p{
+            margin-top: 15px;
+            span{
+                cursor: pointer;
+            }
+        }
+        .pagination{
+            display: flex;
+            clear: both;
+            justify-content: center;
+            padding-bottom: 50px;
+        }
+        .goods_wrap{
+            .goods_box{
+                position: relative;
+                margin: 20px 0;
+                width: 250px;
+                margin-right: 30px;
+                float: left;
+                background-color: white;
+                &:hover::after{
+                    position: absolute;
+                    content: "";
+                    top: 0px;
+                    bottom: 0px;
+                    left: 0;
+                    right: 0px;
+                    border: 3px solid #df0010;
+                }
+                &:hover h3,&:hover h4{
+                    text-decoration: underline;
+                }
+                img{
+                    width: 100%;
+                }
+                h3{
+                    margin-left: 10px;
+                    font-size: 14px;
+                    color: #666;
+                }
+                h4{
+                    margin-left: 10px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    height: 20px;
+                    color: #333;
+                    overflow: hidden;
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+                }
+                h5{
+                    color: #DF0010;
+                    font-size: 12px;
+                    margin-left: 10px;
+                    line-height: 50px;
+                    span{
+                        font-size: 22px;
+                        font-weight: bold;
+                    }
+                }
+            }
+            >a:nth-of-type(4n) .goods_box{
+                margin-right: 0px;
+            }
+        }
+    }
+}

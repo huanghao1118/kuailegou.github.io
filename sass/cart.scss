@@ -1,0 +1,230 @@
+body{
+    background-color: #FAFAFA;
+}
+html{
+    height: 100%;
+}
+.header_warp{
+    background-color: #FFFFFF;
+    .header{
+        width: 900px;
+        padding: 20px 0;
+        margin: 0px auto;
+        .go_shouye{
+            display: inline;
+            img{
+                display: inline;
+                width: 150px;
+            }
+        }
+        h1{
+            color: rosybrown;
+            font-weight: bold;
+            width: 450px;
+            font-size: 20px;
+            line-height: 75px;
+            float: right;
+        }
+    }
+    hr{
+        border: none;
+        border-bottom: 1px dotted red;
+    }
+}
+.cart{
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    border: 1px solid pink;
+    .cart_goods{
+        width: 960px;
+        margin: 20px auto;
+        .kongkong{
+            background-color: rgb(245, 235, 237);
+            text-align: center;
+            padding-top: 10px;
+            h2{
+                font-size: 18px;
+                line-height: 50px;
+                font-family: '楷体','宋体';
+            }
+            h3{
+                float: left;
+                margin-left: 400px;
+                font-size: 14px;
+                color: rgb(252, 137, 156);
+                margin-bottom: 20px;
+                font-family: '宋体','楷体';
+            }
+            a{
+                float: left;
+                padding: 0 10px;
+                margin-left: 10px;
+                margin-bottom: 20px;
+                font-size: 14px;
+                font-family: '宋体','楷体';
+            }
+        }
+        .cart_goods_header{
+            background-color: rgb(231, 228, 228);
+            label{
+                span{
+                    font-size: 12px;
+                }
+                input{
+                    margin: 15px 5px 15px 20px;
+                    position: relative;
+                    top: 2px;
+                }
+            }
+            span{
+                font-size: 12px;
+                color: #777;
+            }
+            .spxx{
+                margin-left: 195px;
+            }
+            .danjia{
+                margin-left: 132px;
+            }
+            .shuliang{
+                margin-left: 92px;
+            }
+            .zongjia{
+                margin-left: 100px;
+            }
+            .caozuo{
+                margin-left: 80px;
+            }
+        }
+        .cart_goods_main{
+            background-color: #F7F7F7;
+            overflow: hidden;
+            margin: 10px 0;
+            label{
+                margin: 10px 10px 10px 0;
+                float: left;
+                input[name=xuan]{
+                    float: left;
+                    margin: 50px 10px 50px 20px;
+                }
+                img{
+                    float: left;
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            h2{
+                width: 240px;
+                margin: 10px;
+                float: left;
+                font-size: 12px;
+                // overflow: hidden;
+                // white-space: nowrap;
+                // text-overflow: ellipsis;
+                a{
+                    color: #753C90;
+                }
+            }
+            h3{
+                float: left;
+                margin: 10px 20px;
+                font-size: 13px;
+                color: cadetblue;
+                width: 50px;
+                span{
+                    white-space: nowrap;
+                    color: pink;
+                }
+            }
+            .number{
+                float: left;
+                margin: 10px 30px;
+                button{
+                    width: 25px;
+                    height: 25px;
+                    border: none;
+                    background-color: #eceaea;
+                    font-size: 15px;
+                    outline: none;
+                }
+                input[type=text]{
+                    width: 40px;
+                    text-align: center;
+                    height: 23px;
+                    border: 1px solid pink;
+                }
+            }
+            h4{
+                float: left;
+                margin: 8px 15px;
+                font-size: 25px;
+                color: #EE394B;
+                width: 100px;
+                text-align: center;
+                font-family: '楷体','宋体';
+            }
+            h5{
+                cursor: pointer;
+                float: left;
+                color: rgb(182, 28, 28);
+                margin-top: 10px;
+                margin-left: 65px;
+                font-family: '楷体','宋体';
+            }
+        }
+        .cart_goods_footer{
+            background-color: rgb(226, 226, 226);
+            label{
+                float: left;
+                line-height: 50px;
+                margin-left: 20px;
+                span{
+                    font-size: 14px;
+                    font-family: '宋体';
+                }
+            }
+            h2,h3,h4,h5{
+                float: left;
+                line-height: 50px;
+                font-size: 14px;
+                font-family: '宋体';
+                cursor: pointer;
+            }
+            h2{
+                margin-left: 50px;
+            }
+            h3{
+                margin-left: 50px;
+            }
+            h4{
+                margin-left: 100px;
+                span{
+                    color: red;
+                    font-weight: bold;
+                    font-family:'微软雅黑';
+                }
+            }
+            h5{
+                margin-left: 80px;
+                span{
+                    font-size: 20px;
+                    color: red;
+                }
+            }
+            button{
+                float: right;
+                margin-top: 9px;
+                margin-right: 25px;
+                line-height: 30px;
+                width: 100px;
+                border-radius: 5px;
+                outline: none;
+                font-family: '楷体','宋体',"微软雅黑";
+                cursor: pointer;
+                font-size: 18px;
+                color: black;
+            }
+        }
+    }
+}

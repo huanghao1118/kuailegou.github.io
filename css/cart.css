@@ -1,0 +1,231 @@
+@charset "UTF-8";
+body {
+  background-color: #FAFAFA;
+}
+
+html {
+  height: 100%;
+}
+
+.header_warp {
+  background-color: #FFFFFF;
+}
+.header_warp .header {
+  width: 900px;
+  padding: 20px 0;
+  margin: 0px auto;
+}
+.header_warp .header .go_shouye {
+  display: inline;
+}
+.header_warp .header .go_shouye img {
+  display: inline;
+  width: 150px;
+}
+.header_warp .header h1 {
+  color: rosybrown;
+  font-weight: bold;
+  width: 450px;
+  font-size: 20px;
+  line-height: 75px;
+  float: right;
+}
+.header_warp hr {
+  border: none;
+  border-bottom: 1px dotted red;
+}
+
+.cart {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #FFFFFF;
+  border: 1px solid pink;
+}
+.cart .cart_goods {
+  width: 960px;
+  margin: 20px auto;
+}
+.cart .cart_goods .kongkong {
+  background-color: #f5ebed;
+  text-align: center;
+  padding-top: 10px;
+}
+.cart .cart_goods .kongkong h2 {
+  font-size: 18px;
+  line-height: 50px;
+  font-family: "楷体", "宋体";
+}
+.cart .cart_goods .kongkong h3 {
+  float: left;
+  margin-left: 400px;
+  font-size: 14px;
+  color: #fc899c;
+  margin-bottom: 20px;
+  font-family: "宋体", "楷体";
+}
+.cart .cart_goods .kongkong a {
+  float: left;
+  padding: 0 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "宋体", "楷体";
+}
+.cart .cart_goods .cart_goods_header {
+  background-color: #e7e4e4;
+}
+.cart .cart_goods .cart_goods_header label span {
+  font-size: 12px;
+}
+.cart .cart_goods .cart_goods_header label input {
+  margin: 15px 5px 15px 20px;
+  position: relative;
+  top: 2px;
+}
+.cart .cart_goods .cart_goods_header span {
+  font-size: 12px;
+  color: #777;
+}
+.cart .cart_goods .cart_goods_header .spxx {
+  margin-left: 195px;
+}
+.cart .cart_goods .cart_goods_header .danjia {
+  margin-left: 132px;
+}
+.cart .cart_goods .cart_goods_header .shuliang {
+  margin-left: 92px;
+}
+.cart .cart_goods .cart_goods_header .zongjia {
+  margin-left: 100px;
+}
+.cart .cart_goods .cart_goods_header .caozuo {
+  margin-left: 80px;
+}
+.cart .cart_goods .cart_goods_main {
+  background-color: #F7F7F7;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.cart .cart_goods .cart_goods_main label {
+  margin: 10px 10px 10px 0;
+  float: left;
+}
+.cart .cart_goods .cart_goods_main label input[name=xuan] {
+  float: left;
+  margin: 50px 10px 50px 20px;
+}
+.cart .cart_goods .cart_goods_main label img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.cart .cart_goods .cart_goods_main h2 {
+  width: 240px;
+  margin: 10px;
+  float: left;
+  font-size: 12px;
+}
+.cart .cart_goods .cart_goods_main h2 a {
+  color: #753C90;
+}
+.cart .cart_goods .cart_goods_main h3 {
+  float: left;
+  margin: 10px 20px;
+  font-size: 13px;
+  color: cadetblue;
+  width: 50px;
+}
+.cart .cart_goods .cart_goods_main h3 span {
+  white-space: nowrap;
+  color: pink;
+}
+.cart .cart_goods .cart_goods_main .number {
+  float: left;
+  margin: 10px 30px;
+}
+.cart .cart_goods .cart_goods_main .number button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: #eceaea;
+  font-size: 15px;
+  outline: none;
+}
+.cart .cart_goods .cart_goods_main .number input[type=text] {
+  width: 40px;
+  text-align: center;
+  height: 23px;
+  border: 1px solid pink;
+}
+.cart .cart_goods .cart_goods_main h4 {
+  float: left;
+  margin: 8px 15px;
+  font-size: 25px;
+  color: #EE394B;
+  width: 100px;
+  text-align: center;
+  font-family: "楷体", "宋体";
+}
+.cart .cart_goods .cart_goods_main h5 {
+  cursor: pointer;
+  float: left;
+  color: #b61c1c;
+  margin-top: 10px;
+  margin-left: 65px;
+  font-family: "楷体", "宋体";
+}
+.cart .cart_goods .cart_goods_footer {
+  background-color: #e2e2e2;
+}
+.cart .cart_goods .cart_goods_footer label {
+  float: left;
+  line-height: 50px;
+  margin-left: 20px;
+}
+.cart .cart_goods .cart_goods_footer label span {
+  font-size: 14px;
+  font-family: "宋体";
+}
+.cart .cart_goods .cart_goods_footer h2, .cart .cart_goods .cart_goods_footer h3, .cart .cart_goods .cart_goods_footer h4, .cart .cart_goods .cart_goods_footer h5 {
+  float: left;
+  line-height: 50px;
+  font-size: 14px;
+  font-family: "宋体";
+  cursor: pointer;
+}
+.cart .cart_goods .cart_goods_footer h2 {
+  margin-left: 50px;
+}
+.cart .cart_goods .cart_goods_footer h3 {
+  margin-left: 50px;
+}
+.cart .cart_goods .cart_goods_footer h4 {
+  margin-left: 100px;
+}
+.cart .cart_goods .cart_goods_footer h4 span {
+  color: red;
+  font-weight: bold;
+  font-family: "微软雅黑";
+}
+.cart .cart_goods .cart_goods_footer h5 {
+  margin-left: 80px;
+}
+.cart .cart_goods .cart_goods_footer h5 span {
+  font-size: 20px;
+  color: red;
+}
+.cart .cart_goods .cart_goods_footer button {
+  float: right;
+  margin-top: 9px;
+  margin-right: 25px;
+  line-height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  outline: none;
+  font-family: "楷体", "宋体", "微软雅黑";
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+}
+
+/*# sourceMappingURL=cart.css.map */

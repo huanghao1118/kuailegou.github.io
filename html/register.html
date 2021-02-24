@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/login_head.css">
+    <link rel="stylesheet" href="../css/login_foot.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <a class="header_left" href="../html/shouye.html"><img src="https://ecimg.happigo.com/resource/web/images/logo.jpg"></a>
+        <div class="header_right">
+            <img src="https://ecimg.happigo.com/resource/web/images/top_center.jpg">
+        </div>
+    </div>
+
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+    <div class="main clear_fix">
+        <div class="main_box">
+            <div class="main_header clear_fix">
+                <h2>登录快乐购</h2>
+                <div class="main_header_right">
+                    <h3>已有快乐购账号</h3>
+                    <h4><a href="../html/login.html">在此登录</a></h4>
+                </div>
+            </div>
+
+            <form action="" class="main_form clear_fix" method="POST"  enctype="multipart/form-data" >
+                <input type="text" placeholder="用户名" name="uname">
+                <label id="uname-error" class="error" for="uname"></label>
+                <input type="password" placeholder="请输入密码" name="pwd" autocomplete=off style="width: 300px;">
+                <label id="pwd-error" class="error" for="pwd" style="display: inline;" ></label>
+                <input type="password" placeholder="请再次输入密码" name="pwd2" autocomplete=off style="width: 300px;">
+                <label id="pwd2-error" class="error" for="pwd2" style="display: inline;" ></label>
+                <span id="pwd22-error" class="error" style="display: inline;" ></span>
+                <label class="checkbox_jz">
+                    <input type="checkbox" class="checkbox_jizhu" name="tongyi">
+                    <span>注册即表示同意快乐购</span>
+                    <a href="https://www.happigo.com/news-7.html" target="_blank">《用户服务协议》</a>
+                </label>
+                <input type="submit" value="立即登录" style="margin-top:10px" >
+            </form>
+        </div>
+    </div>
+    <script>
+        $(".main_form").validate({
+            rules:{
+                tongyi:{
+                    required: true
+                },
+                uname:{
+                    required: true
+                },
+                pwd:{
+                    required: true
+                },
+                pwd2:{
+                    required: true
+                }
+            },
+            messages: {
+                tongyi:{
+                    required:'<i class="iconfont icon-gantanhao" style="color: #C41F3A;font-size: 12px;"></i> 未同意协议'
+                },
+                uname:{
+                    required:'<i class="iconfont icon-gantanhao" style="color: #C41F3A;font-size: 12px;"></i> 请输入用户名'
+                },
+                pwd:{
+                    required:'<i class="iconfont icon-gantanhao" style="color: #C41F3A;font-size: 12px;"></i> 请输入密码'
+                },
+                pwd2:{
+                    required:'<i class="iconfont icon-gantanhao" style="color: #C41F3A;font-size: 12px;"></i> 请再次输入密码'
+                }
+            }
+        })
+    </script>
+    <!-- 底部 -->
+    <div class="footer">
+        <p class="footer_head">
+            <span class="font_arial">Copyright© 2006-2019 happigo. All Rights Reserved </span>
+            免费服务热线: 400-705-1111 | 固话也可拨打: 400-705-8800
+            <br>
+            湘ICP备19013404号-2
+        </p>
+        <p class="footer_p clear_fix">
+            <a href="http://www.itrust.org.cn/home/index/itrust_certifi/wm/2782875193.html" target="_blank">
+                <img src="https://ecimg.happigo.com/resource/web/images/foot_img3.png"></a>
+            <a href="https://search.szfw.org/cert/l/CX20150428007576007720" target="_blank">
+                <img src="https://ecimg.happigo.com/resource/web/images/foot_img4.png"></a>
+        </p>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+</html>

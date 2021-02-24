@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/login_head.css">
+    <link rel="stylesheet" href="../css/login_foot.css">
+    <script src="../js/cookie.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a class="header_left" href="../html/shouye.html"><img src="https://ecimg.happigo.com/resource/web/images/logo.jpg"></a>
+        <div class="header_right">
+            <img src="https://ecimg.happigo.com/resource/web/images/top_center.jpg">
+        </div>
+    </div>
+
+
+    <!-- 登录 -->
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+    <div class="main clear_fix">
+        <div class="main_box">
+            <div class="main_header clear_fix">
+                <h2>登录快乐购</h2>
+                <div class="main_header_right">
+                    <h3>还没有快乐购账号</h3>
+                    <h4><a href="../html/register.html">快速注册</a></h4>
+                </div>
+            </div>
+
+            <form action="../php/login.php" class="main_form clear_fix" method="POST"  enctype="multipart/form-data" >
+                
+            </form>
+        </div>
+    </div>
+    
+<script>
+    $(".main_form").validate({
+        rules:{
+            uname:{
+                required: true,
+            },
+            pwd:{
+                required: true,
+            },
+            phone:{
+                required: true,
+                minlength: 11,
+                maxlength: 11,
+                number:true
+            },
+            yzm:{
+                required: true,
+                minlength: 4,
+                maxlength:4
+            }
+        },
+        messages: {
+            uname:{
+                required:'<i class="iconfont icon-gantanhao" style="color: #C41F3A;font-size: 12px;"></i> 请输入已验证手机/邮箱/用户名'
+            },
+            pwd:{
+                required:'<i class="iconfont icon-gantanhao" style="color: #C41F3A;font-size: 12px;"></i> 请输入密码'
+            },
+            phone:{
+                required: '<i class="iconfont icon-gantanhao" style="color: #C41F3A;font-size: 12px;"></i> 请输入手机号码',
+            },
+            yzm:{
+                required: '<i class="iconfont icon-gantanhao" style="color: #C41F3A;font-size: 12px;"></i> 请输入短信验证码'
+            }
+        }
+    })
+</script>
+
+    
+
+    <!-- 侧边栏 -->
+    <div class="login_fixed">
+        <a href="javasrcipt:;">
+            <img src="https://ecimg.happigo.com/resource/web/images/login_r1.png">
+            <i class="iconfont icon-yousanjiaoxing"></i>
+            <img class="login_ewm" src="https://ecimg.happigo.com/resource/web/images/down_app_ewm.png">
+        </a>
+    </div>
+
+
+    <!-- 底部 -->
+    <div class="footer">
+        <p class="footer_head">
+            <span class="font_arial">Copyright© 2006-2019 happigo. All Rights Reserved </span>
+            免费服务热线: 400-705-1111 | 固话也可拨打: 400-705-8800
+            <br>
+            湘ICP备19013404号-2
+        </p>
+        <p class="footer_p clear_fix">
+            <a href="http://www.itrust.org.cn/home/index/itrust_certifi/wm/2782875193.html" target="_blank">
+                <img src="https://ecimg.happigo.com/resource/web/images/foot_img3.png"></a>
+            <a href="https://search.szfw.org/cert/l/CX20150428007576007720" target="_blank">
+                <img src="https://ecimg.happigo.com/resource/web/images/foot_img4.png"></a>
+        </p>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>

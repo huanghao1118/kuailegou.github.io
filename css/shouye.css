@@ -1,0 +1,316 @@
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  background-color: #F3F3F3;
+}
+.main .goods_box_a .goods_box {
+  position: relative;
+  margin: 20px 0;
+  width: 250px;
+  margin-right: 30px;
+  float: left;
+  background-color: #fcfcfc;
+}
+.main .goods_box_a .goods_box:hover::after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0px;
+  border: 3px solid #df0010;
+}
+.main .goods_box_a .goods_box:hover h3, .main .goods_box_a .goods_box:hover h4 {
+  text-decoration: underline;
+}
+.main .goods_box_a .goods_box img {
+  width: 100%;
+}
+.main .goods_box_a .goods_box h3 {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #666;
+}
+.main .goods_box_a .goods_box h4 {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  height: 20px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .goods_box_a .goods_box h5 {
+  color: #DF0010;
+  font-size: 12px;
+  margin-left: 10px;
+  line-height: 50px;
+}
+.main .goods_box_a .goods_box h5 span {
+  font-size: 22px;
+  font-weight: bold;
+}
+.main .goods_box_a:nth-of-type(4n) .goods_box {
+  margin-right: 0px;
+}
+.main .zhibo {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.main .zhibo h2 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 22px;
+  border-left: 5px solid black;
+  height: 22px;
+  line-height: 22px;
+  padding-left: 10px;
+}
+.main .zhibo h2 span {
+  font-size: 14px;
+  color: #666666;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.main .zhibo .zhibo_left, .main .zhibo .zhibo_right {
+  float: left;
+  width: 225px;
+  height: 410px;
+  background-color: white;
+  padding-top: 5px;
+}
+.main .zhibo .zhibo_left > i, .main .zhibo .zhibo_right > i {
+  color: #DF0010;
+  font-size: 12px;
+  margin: 0 5px 0 12px;
+}
+.main .zhibo .zhibo_left > span, .main .zhibo .zhibo_right > span {
+  font-size: 15px;
+  color: #DF0010;
+  font-weight: bold;
+}
+.main .zhibo .zhibo_left .a_buy_phone, .main .zhibo .zhibo_right .a_buy_phone {
+  width: 198px;
+  padding: 6px 0;
+  font-size: 14px;
+  white-space: nowrap;
+  height: 20px;
+  border: 1px solid #E50D16;
+  color: #E50D16;
+  text-align: center;
+  margin-left: 10px;
+  position: relative;
+}
+.main .zhibo .zhibo_left .a_buy_phone .a_buy_phone_div, .main .zhibo .zhibo_right .a_buy_phone .a_buy_phone_div {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 8px;
+  margin-left: -1px;
+  background-color: white;
+  border: 1px solid pink;
+  border-top: none;
+}
+.main .zhibo .zhibo_left .a_buy_phone .a_buy_phone_div img, .main .zhibo .zhibo_right .a_buy_phone .a_buy_phone_div img {
+  margin-left: 8px;
+}
+.main .zhibo .zhibo_left .a_buy_phone .a_buy_phone_div p, .main .zhibo .zhibo_right .a_buy_phone .a_buy_phone_div p {
+  text-align: center;
+  padding: 10px 0;
+}
+.main .zhibo .zhibo_left .zhibo_right_goods, .main .zhibo .zhibo_right .zhibo_right_goods {
+  width: 100%;
+  height: 340px;
+  overflow-x: hidden;
+  position: relative;
+}
+.main .zhibo .zhibo_left .zhibo_right_goods .zhibo_left_goods1, .main .zhibo .zhibo_left .zhibo_right_goods .zhibo_left_goods2, .main .zhibo .zhibo_right .zhibo_right_goods .zhibo_left_goods1, .main .zhibo .zhibo_right .zhibo_right_goods .zhibo_left_goods2 {
+  width: 205px;
+  position: absolute;
+}
+.main .zhibo .zhibo_left .zhibo_right_goods .zhibo_left_goods1, .main .zhibo .zhibo_right .zhibo_right_goods .zhibo_left_goods1 {
+  left: 220px;
+}
+.main .zhibo .zhibo_left .zhibo_right_goods .zhibo_left_goods2, .main .zhibo .zhibo_right .zhibo_right_goods .zhibo_left_goods2 {
+  left: 0;
+}
+.main .zhibo .zhibo_left .zhibo_right_goods .icon-zuojiantou, .main .zhibo .zhibo_right .zhibo_right_goods .icon-zuojiantou {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  background-color: rgba(179, 179, 179, 0.7);
+  color: white;
+  width: 25px;
+  height: 50px;
+  text-align: left;
+  line-height: 50px;
+  border-radius: 0 25px 25px 0;
+  font-size: 20px;
+  display: none;
+}
+.main .zhibo .zhibo_left .zhibo_right_goods:hover .icon-zuojiantou, .main .zhibo .zhibo_right .zhibo_right_goods:hover .icon-zuojiantou {
+  display: block;
+}
+.main .zhibo .zhibo_left .zhibo_right_goods .icon-youjiantou1, .main .zhibo .zhibo_right .zhibo_right_goods .icon-youjiantou1 {
+  display: none;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  background-color: rgba(179, 179, 179, 0.7);
+  color: white;
+  width: 25px;
+  height: 50px;
+  text-align: right;
+  line-height: 50px;
+  border-radius: 25px 0 0 25px;
+  font-size: 20px;
+}
+.main .zhibo .zhibo_left .zhibo_right_goods:hover .icon-youjiantou1, .main .zhibo .zhibo_right .zhibo_right_goods:hover .icon-youjiantou1 {
+  display: block;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods, .main .zhibo .zhibo_left .zhibo_left_goods1, .main .zhibo .zhibo_left .zhibo_left_goods2, .main .zhibo .zhibo_right .zhibo_left_goods, .main .zhibo .zhibo_right .zhibo_left_goods1, .main .zhibo .zhibo_right .zhibo_left_goods2 {
+  padding-top: 10px;
+  margin: 0 10px;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods a:first-of-type, .main .zhibo .zhibo_left .zhibo_left_goods1 a:first-of-type, .main .zhibo .zhibo_left .zhibo_left_goods2 a:first-of-type, .main .zhibo .zhibo_right .zhibo_left_goods a:first-of-type, .main .zhibo .zhibo_right .zhibo_left_goods1 a:first-of-type, .main .zhibo .zhibo_right .zhibo_left_goods2 a:first-of-type {
+  position: relative;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods a:first-of-type img, .main .zhibo .zhibo_left .zhibo_left_goods1 a:first-of-type img, .main .zhibo .zhibo_left .zhibo_left_goods2 a:first-of-type img, .main .zhibo .zhibo_right .zhibo_left_goods a:first-of-type img, .main .zhibo .zhibo_right .zhibo_left_goods1 a:first-of-type img, .main .zhibo .zhibo_right .zhibo_left_goods2 a:first-of-type img {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods a:first-of-type .zhibo_time, .main .zhibo .zhibo_left .zhibo_left_goods1 a:first-of-type .zhibo_time, .main .zhibo .zhibo_left .zhibo_left_goods2 a:first-of-type .zhibo_time, .main .zhibo .zhibo_right .zhibo_left_goods a:first-of-type .zhibo_time, .main .zhibo .zhibo_right .zhibo_left_goods1 a:first-of-type .zhibo_time, .main .zhibo .zhibo_right .zhibo_left_goods2 a:first-of-type .zhibo_time {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 2px;
+  color: #fff;
+  font-size: 13px;
+  padding: 2px 5px;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods a:first-of-type p, .main .zhibo .zhibo_left .zhibo_left_goods1 a:first-of-type p, .main .zhibo .zhibo_left .zhibo_left_goods2 a:first-of-type p, .main .zhibo .zhibo_right .zhibo_left_goods a:first-of-type p, .main .zhibo .zhibo_right .zhibo_left_goods1 a:first-of-type p, .main .zhibo .zhibo_right .zhibo_left_goods2 a:first-of-type p {
+  font-size: 14px;
+  color: black;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 20px;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods a:first-of-type .zb_p1, .main .zhibo .zhibo_left .zhibo_left_goods1 a:first-of-type .zb_p1, .main .zhibo .zhibo_left .zhibo_left_goods2 a:first-of-type .zb_p1, .main .zhibo .zhibo_right .zhibo_left_goods a:first-of-type .zb_p1, .main .zhibo .zhibo_right .zhibo_left_goods1 a:first-of-type .zb_p1, .main .zhibo .zhibo_right .zhibo_left_goods2 a:first-of-type .zb_p1 {
+  color: #666666;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods .price, .main .zhibo .zhibo_left .zhibo_left_goods1 .price, .main .zhibo .zhibo_left .zhibo_left_goods2 .price, .main .zhibo .zhibo_right .zhibo_left_goods .price, .main .zhibo .zhibo_right .zhibo_left_goods1 .price, .main .zhibo .zhibo_right .zhibo_left_goods2 .price {
+  margin-top: 10px;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods .price .price1, .main .zhibo .zhibo_left .zhibo_left_goods1 .price .price1, .main .zhibo .zhibo_left .zhibo_left_goods2 .price .price1, .main .zhibo .zhibo_right .zhibo_left_goods .price .price1, .main .zhibo .zhibo_right .zhibo_left_goods1 .price .price1, .main .zhibo .zhibo_right .zhibo_left_goods2 .price .price1 {
+  color: #DF0010;
+  font-size: 22px;
+  font-weight: bold;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods .price .price1 span, .main .zhibo .zhibo_left .zhibo_left_goods1 .price .price1 span, .main .zhibo .zhibo_left .zhibo_left_goods2 .price .price1 span, .main .zhibo .zhibo_right .zhibo_left_goods .price .price1 span, .main .zhibo .zhibo_right .zhibo_left_goods1 .price .price1 span, .main .zhibo .zhibo_right .zhibo_left_goods2 .price .price1 span {
+  font-size: 15px;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods .price .price2, .main .zhibo .zhibo_left .zhibo_left_goods1 .price .price2, .main .zhibo .zhibo_left .zhibo_left_goods2 .price .price2, .main .zhibo .zhibo_right .zhibo_left_goods .price .price2, .main .zhibo .zhibo_right .zhibo_left_goods1 .price .price2, .main .zhibo .zhibo_right .zhibo_left_goods2 .price .price2 {
+  color: #999999;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.main .zhibo .zhibo_left .zhibo_left_goods .a_buy_now, .main .zhibo .zhibo_left .zhibo_left_goods1 .a_buy_now, .main .zhibo .zhibo_left .zhibo_left_goods2 .a_buy_now, .main .zhibo .zhibo_right .zhibo_left_goods .a_buy_now, .main .zhibo .zhibo_right .zhibo_left_goods1 .a_buy_now, .main .zhibo .zhibo_right .zhibo_left_goods2 .a_buy_now {
+  width: 200px;
+  text-align: center;
+  background-color: #E50D16;
+  color: white;
+  padding: 6px 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.main .zhibo .zhibo_middle {
+  float: left;
+}
+.main .goods_list {
+  width: 1100px;
+  margin: 0 auto;
+}
+.main .goods_list > h2 {
+  font-size: 20px;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+  margin: 30px 0 0;
+  border-left: 5px solid black;
+}
+.main .goods_list > p {
+  margin-top: 15px;
+}
+.main .goods_list > p span {
+  cursor: pointer;
+}
+.main .goods_list .pagination {
+  padding-top: 20px;
+  display: flex;
+  clear: both;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.main .goods_list .goods_wrap .goods_box {
+  position: relative;
+  margin: 20px 0;
+  width: 250px;
+  margin-right: 30px;
+  float: left;
+  background-color: white;
+}
+.main .goods_list .goods_wrap .goods_box:hover::after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0px;
+  border: 3px solid #df0010;
+}
+.main .goods_list .goods_wrap .goods_box:hover h3, .main .goods_list .goods_wrap .goods_box:hover h4 {
+  text-decoration: underline;
+}
+.main .goods_list .goods_wrap .goods_box img {
+  width: 100%;
+}
+.main .goods_list .goods_wrap .goods_box h3 {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #666;
+}
+.main .goods_list .goods_wrap .goods_box h4 {
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  height: 20px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .goods_list .goods_wrap .goods_box h5 {
+  color: #DF0010;
+  font-size: 12px;
+  margin-left: 10px;
+  line-height: 50px;
+}
+.main .goods_list .goods_wrap .goods_box h5 span {
+  font-size: 22px;
+  font-weight: bold;
+}
+.main .goods_list .goods_wrap > a:nth-of-type(4n) .goods_box {
+  margin-right: 0px;
+}
+
+/*# sourceMappingURL=shouye.css.map */

@@ -1,0 +1,131 @@
+html,body{
+    height: 100%;
+}
+.sidebar{
+    width: 40px;
+    background-color: #262626;
+    height: 100%;
+    /* overflow-y: hidden; */
+    position: fixed;
+    z-index: 10;
+    min-height: 500px;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 13px;
+}
+.sidebar_top{
+    width: 40px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    margin-top: -250px;
+    text-align: center;
+}
+.sidebar_top div:hover{
+    background-color: red;
+}
+.sidebar_top i{
+    font-size: 20px;
+    padding: 2px 0;
+    display: block;
+}
+.sidebar_top_one{
+    width: 40px;
+    padding: 5px 0;
+}
+.sidebar_top hr{
+    margin: 20px 0;
+    margin-left: 6px;
+    width: 28px;
+    border: none;
+    border-bottom: 1px solid rgba(250, 148, 165,.5);
+}
+.sidebar_top_two{
+    padding: 5px 0;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.sidebar_top_two a{
+    color: white;
+}
+.sidebar_bottom{
+    width: 40px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+}
+.sidebar_bottom a{
+    color: whitesmoke;
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 16px 0;
+}
+.sidebar_bottom a:hover{
+    background-color: red;
+}
+.sidebar_bottom .icon-erweima img{
+    position: absolute;
+    right: 38px;
+    bottom: -10px;
+    width: 150px;
+    display: none;
+}
+
+
+.icon-erweima{
+    position: relative;
+}
+.icon-erweima i{
+    position: absolute;
+    left: -2px;
+    bottom: 0px;
+    font-size: 13px;
+    color: #f5877d;
+    display: none;
+} 
+.icon-kefu{
+    position: relative;
+}
+.icon-kefu i{
+    position: absolute;
+    left: -2px;
+    bottom: 0px;
+    font-size: 13px;
+    color: #faf6f5;
+    display: none;
+}
+.icon-kefu:hover i{
+    display: block;
+}
+
+.kefu{
+    width: 180px;
+    height: 250px;
+    background-color: #FBFCFD;
+    color: #3a3a3b;
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    display: none;
+}
+.kefu h4{
+    background-color:#FFFFFF;
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    font-size: 13px;
+}
+.kefu h5{
+    float: left;
+    width: 50%;
+    line-height: 20px;
+    font-size: 12px;
+}
+.icon-kefu:hover .kefu{
+    display: block;
+}

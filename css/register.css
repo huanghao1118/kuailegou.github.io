@@ -1,0 +1,113 @@
+.main {
+  width: 1000px;
+  margin: 0 auto;
+}
+.main .main_box {
+  background: url(../img/login_icon_list.png) 0 -115px no-repeat;
+  float: right;
+  padding: 0 30px;
+  margin: 20px 0;
+  height: 500px;
+  width: 320px;
+}
+.main .main_box .main_header {
+  margin: 20px 0;
+}
+.main .main_box .main_header h2 {
+  float: left;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 38px;
+  color: #F11D20;
+}
+.main .main_box .main_header .main_header_right {
+  float: right;
+}
+.main .main_box .main_header .main_header_right h3, .main .main_box .main_header .main_header_right h4 {
+  float: left;
+  font-size: 12px;
+  line-height: 38px;
+}
+.main .main_box .main_header .main_header_right h3 {
+  color: #BC9A8C;
+}
+.main .main_box .main_form {
+  position: relative;
+}
+.main .main_box .main_form input[type=text]:first-of-type {
+  width: 300px;
+  height: 38px;
+  border: 1px solid pink;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.main .main_box .main_form input[type=text]:first-of-type:focus {
+  border-style: solid;
+  border-color: #03a9f4;
+  box-shadow: 0 0 15px #03a9f4;
+}
+.main .main_box .main_form input[type=password] {
+  width: 160px;
+  height: 38px;
+  border: 1px solid pink;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.main .main_box .main_form input[type=password]:focus {
+  border-style: solid;
+  border-color: #03a9f4;
+  box-shadow: 0 0 15px #03a9f4;
+}
+.main .main_box .main_form #uname-error {
+  color: pink;
+  font-size: 12px;
+  width: 90%;
+  display: block;
+  position: absolute;
+  top: 55px;
+}
+.main .main_box .main_form #pwd-error {
+  color: pink;
+  font-size: 12px;
+  width: 90%;
+  left: 0;
+  display: block;
+  position: absolute;
+  top: 125px;
+}
+.main .main_box .main_form #pwd2-error ,#pwd22-error{
+  color: pink;
+  font-size: 12px;
+  width: 90%;
+  left: 0;
+  display: block;
+  position: absolute;
+  top: 195px;
+}
+.main .main_box .main_form input[type=submit] {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 98%;
+  border: none;
+  height: 40px;
+  background-color: #F11D20;
+  color: #FFFFFF;
+}
+.main .main_box .main_form .checkbox_jz {
+  font-size: 12px;
+  float: left;
+}
+.main .main_box .main_form .checkbox_jz input {
+  position: relative;
+  top: 2px;
+  float: left;
+}
+.main .main_box .main_form .checkbox_jz span {
+  float: left;
+}
+.main .main_box .main_form .checkbox_jz a {
+  float: left;
+}
+
+/*# sourceMappingURL=register.css.map */

@@ -1,0 +1,129 @@
+.footer {
+  width: 1100px;
+  margin: 0 auto;
+}
+.footer .footer_li {
+  margin: 50px 0;
+  float: left;
+  width: 180px;
+  text-align: center;
+}
+.footer .footer_li:first-of-type{
+  margin-left: 90px;
+}
+.footer .footer_li i {
+  font-size: 55px;
+  color: #DF0010;
+}
+.footer .footer_li h2 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.footer .footer_li p {
+  font-size: 14px;
+  color: #9999A6;
+}
+.footer hr {
+  clear: both;
+  color: #FFFFFF;
+  border-bottom: none;
+}
+.footer .footer_left {
+  margin-top: 50px;
+  margin-bottom: 90px;
+  float: left;
+}
+.footer .footer_left .footer_left_dl {
+  float: left;
+  padding: 0 35px;
+}
+.footer .footer_left .footer_left_dl dt {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.footer .footer_left .footer_left_dl dd a {
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+}
+.footer .footer_right {
+  float: right;
+  margin-top: 50px;
+}
+.footer .footer_right ul {
+  margin-right: 50px;
+}
+.footer .footer_right ul li {
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+.footer .footer_right ul li h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer .footer_right ul li p {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer_bottom {
+  background-color: #262626;
+  clear: both;
+  margin-top: 100px;
+}
+.footer_bottom .footer_bottom_w600 {
+  width: 600px;
+  height: 40px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.footer_bottom .footer_bottom_w600 ul li {
+  float: left;
+  padding: 0 30px;
+  font-size: 12px;
+  border-right: 1px solid #FFFFFF;
+}
+.footer_bottom .footer_bottom_w600 ul li a {
+  color: #fff;
+}
+.footer_bottom .footer_bottom_w600 ul li:last-of-type {
+  border-right: none;
+}
+.footer_bottom .footer_bottom_w1100 {
+  width: 1100px;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+  color: #c8c8c8;
+}
+.footer_bottom .footer_bottom_w1100 p {
+  line-height: 30px;
+}
+.footer_bottom .footer_bottom_w1100 p a {
+  float: left;
+}
+.footer_bottom .footer_bottom_w1100 p img {
+  float: left;
+  margin: 0 5px;
+}
+.footer_bottom .footer_bottom_w1100 p a:first-of-type {
+  margin-left: 290px;
+}
+.footer_bottom .footer_bottom_w1100 .footer_p {
+  text-align: center;
+  width: 230px;
+  margin: 30px auto;
+}
+.footer_bottom .footer_bottom_w1100 .footer_p a:first-of-type {
+  margin-left: 0px;
+}
+.footer_bottom .footer_bottom_w1100 .footer_p a {
+  margin-bottom: 40px;
+  float: left;
+  width: 115px;
+}
+
+/*# sourceMappingURL=footer.css.map */
